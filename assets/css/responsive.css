@@ -1,0 +1,138 @@
+@media screen and (max-width: 767px) {
+  .school-desc h4 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .box {
+    margin-bottom: 20px;
+  }
+  .footer-content li {
+    font-size: 9px;
+  }
+  .footer p {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .section-5 img {
+    width: 100%;
+    height: auto;
+  }
+  .staff-content img {
+    width: 150px;
+    height: 150px;
+  }
+  .card-margin {
+    margin-bottom: 100px;
+  }
+  .our-staff {
+    margin-bottom: 100px !important;
+  }
+  .subscribe {
+    height: 20vh;
+  }
+  .subscribe h4 {
+    font-size: 16px;
+  }
+  .subscribe p {
+    font-size: 10px;
+  }
+  .subscribe .card {
+    position: absolute;
+    top: 17vh;
+    width: 50vw;
+    padding: 8px;
+  }
+  .subscribe button {
+    font-size: 6px;
+  }
+  .subscribe input {
+    font-size: 10px;
+  }
+  .subscribe .envelope-icon {
+    border: none;
+    font-size: 6px;
+  }
+  .dots-abs {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin-right: 25px;
+    margin-top: 120px;
+  }
+  .dots-abs img {
+    width: 35px;
+    height: 27px;
+  }
+  .header-content {
+    grid-template-columns: 1fr;
+  }
+  .about-page .left-wrapper p {
+    font-size: 12px;
+    margin-right: 25px;
+  }
+  .img-abs img {
+    width: 100%;
+    height: 195px;
+  }
+  .books-abs {
+    position: absolute;
+    bottom: 0;
+    left: 0 !important;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 319px;
+    z-index: 1;
+  }
+  .books-abs img {
+    width: 100%;
+    height: auto;
+  }
+  .left-wrapper {
+    height: 55vh;
+  }
+.right-wrapper {
+    height: 30vh;
+  }
+  .dot-abs{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+ .dot-abs img {
+    width: 29px;
+    height: 51px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .person-abs img {
+    width: 260px;
+    height: 330px;
+  }
+  .person-abs {
+    position: absolute;
+    bottom: 0;
+    left: 15vw;
+  }
+  .left-wrapper-content p {
+    font-size: 12px;
+  }
+  .left-wrapper-content button {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .featured-post-img1, .featured-post-img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .social-icons, .search input, .search .search-icon {
+    display: none
+  }
+.featured1 p, .featured2 p{
+  font-size: 5px;
+}
+.featured1 h5, .featured2 h5 {
+  font-size: 5px;
+}
+}
