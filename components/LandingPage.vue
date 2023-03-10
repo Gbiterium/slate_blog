@@ -44,7 +44,7 @@
           <h4 class="font-weight-bold">
             Featured Posts
           </h4>
-          <span class="float-right">View All</span>
+          <nuxt-link to="/popular-topics" class="float-right text-dark text-decoration-none">View All</nuxt-link>
         </div>
         <div class="row">
           <div class="col-md-7 box">

@@ -167,8 +167,7 @@ z-index: 1;
 /* .fixed {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  margin-bottom: 2vh;
   width: 100%;
   z-index: 1001;
 } */
