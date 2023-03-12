@@ -1,7 +1,7 @@
 <template>
   <div>
     <BaseHeader />
-    <AboutUs />
+    <AboutUs class="about-page" />
     <BaseFooter />
   </div>
 </template>

@@ -80,6 +80,9 @@
   border: 1px solid;
   border-radius: 4px;
 }
+.resources-page, .categories-page, .popular-topics {
+  margin-top: 10vh;
+}
 .left-wrapper{
   display: flex;
   align-items: center;
@@ -91,7 +94,7 @@
   padding-left: 4vw;
 }
 .about-page .left-wrapper p {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 .right-wrapper{
   background: #1070B7;
@@ -164,13 +167,12 @@ z-index: 1;
 .box {
   margin-bottom: auto;
 }
-/* .fixed {
+.fixed {
   position: absolute;
   top: 0;
-  margin-bottom: 2vh;
   width: 100%;
   z-index: 1001;
-} */
+}
 .footer-content li {
   font-size: 18px;
 }

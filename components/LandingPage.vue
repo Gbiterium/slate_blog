@@ -44,7 +44,9 @@
           <h4 class="font-weight-bold">
             Featured Posts
           </h4>
-          <nuxt-link to="/popular-topics" class="float-right text-dark text-decoration-none">View All</nuxt-link>
+          <nuxt-link to="/popular-topics" class="float-right text-dark text-decoration-none">
+            View All
+          </nuxt-link>
         </div>
         <div class="row">
           <div class="col-md-7 box">
@@ -101,7 +103,7 @@
                 </div>
               </div>
             </div>
-            <div class="card shadow border-0 mt-5">
+            <div class="card shadow border-0 mt-4">
               <div class="card-body d-flex">
                 <div>
                   <img src="@/assets/img/image 2.png" class="featured-post-img" alt="" width="240" height="318">
@@ -171,5 +173,8 @@ export default {
 }
 .school-desc button{
   color: #EE6A5F;
+}
+.border-dotted {
+  border: 1px dashed #EE6A5F;
 }
 </style>

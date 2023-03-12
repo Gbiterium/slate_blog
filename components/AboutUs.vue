@@ -21,7 +21,7 @@
               eleifend lorem montes. Magna consequat pharetra volutpat et
               sagittis ac cursus urna. Id feugiat eget pretium malesuada
             </p>
-            <button type="button" class="btn btn-outline-primary register mt-4">
+            <button type="button" class="btn btn-outline-primary register mt-lg-4">
               Register Now <b-icon-arrow-right-short />
             </button>
           </div>

@@ -67,7 +67,7 @@
               </div>
             </div>
           </div>
-          <div class="card shadow border-0 mt-5">
+          <div class="card shadow border-0 mt-4">
             <div class="card-body d-flex">
               <div class="school-img">
                 <img src="@/assets/img/image 2.png" alt="">

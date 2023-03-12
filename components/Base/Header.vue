@@ -1,11 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <nav
-    class="  navbar navbar-expand-lg pl-0 fixed
+    id="navbar"
+    class="  navbar navbar-expand-lg pl-0
         "
+    :class="{ scrolling_active: scrollPosition > 100 }"
+    @scroll="scrollHandler"
   >
     <div
-      class="container-fluid px-lg-5 p-0 d-flex align-items-center
+      class="container-fluid px-lg-4 p-0 d-flex align-items-center
         flex-wrap
         justify-content-between "
     >
@@ -78,7 +81,23 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      scrollPosition: 0
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.updateScroll)
+  },
+  methods: {
+    scrollHandler () {
+      // eslint-disable-next-line no-unused-expressions
+      this.scrollPosition
+    },
+    updateScroll () {
+      this.scrollPosition = window.scrollY
+    }
+  }
 }
 </script>
 
@@ -104,4 +123,17 @@ export default {
 .navbar-collapse {
   flex-grow: 0 !important;
 }
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  background: #F5F6F7;
+  width: 100%;
+}
+.scrolling_active {
+    background-color: #F5F6F7;
+    color: black;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+  }
 </style>

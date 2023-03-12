@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="row posts my-5">
-    <div v-for="topic in topics" :key="topic" class="col-md-3">
+    <div v-for="topic in topics" :key="topic" class="col-md-3 box">
       <div class="card border-0 shadow scroll-active">
         <div class="card-body">
           <img src="@/assets/img/cactus.png" alt="">
